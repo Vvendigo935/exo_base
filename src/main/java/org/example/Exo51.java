@@ -11,7 +11,9 @@ public class Exo51 {
          */
         Scanner scanner = new Scanner(System.in);
         String nom,prenom;
+        System.out.println("votre nom");
         nom = scanner.next();
+        System.out.println("Votre prenom");
         prenom = scanner.next();
         System.out.println("Bonjour "+prenom+" "+nom);
     }
